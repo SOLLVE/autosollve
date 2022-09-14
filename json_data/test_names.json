@@ -1,0 +1,2532 @@
+[
+ {
+   "OMP Version": 4.5,
+   "Test Name": "alpaka_complex_template.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "declare_target_module.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "declare_target_subroutine.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_many_matrices.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_reduction.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_teams_dist_par_for.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gridmini_map_struct_float_mul.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "linked_list.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "mmm_target_parallel_for_simd.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "mmm_target.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "omp_default_device.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "qmcpack_target_math.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "qmcpack_target_static_lib.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "reduction_separated_directives.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "reduction_separated_directives.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_end_declare_target.c",
+   "Pragma": "#pragma omp end declare target"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_extended_list.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_link_extended_list.c",
+   "Pragma": "#pragma omp declare target link"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_to_extended_list",
+   "Pragma": "#pragma omp declare target to"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_defaultmap.c",
+   "Pragma": "#pragma omp target defaultmap"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_defaultmap.F90",
+   "Pragma": "!$omp target defaultmap"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_depends.c",
+   "Pragma": "#pragma omp target depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_depends.F90",
+   "Pragma": "!$omp target depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_device.c",
+   "Pragma": "#pragma omp target device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_device.F90",
+   "Pragma": "!$omp target device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_firstprivate.c",
+   "Pragma": "#pragma omp target firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_firstprivate.F90",
+   "Pragma": "!$omp target firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_if.c",
+   "Pragma": "#pragma omp target if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_if.F90",
+   "Pragma": "!$omp target if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_is_device_ptr.c",
+   "Pragma": "#pragma omp target is_device_ptr"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_array_default.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_array_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_classes_default.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_components_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_global_arrays.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_local_array.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_module_array.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer_no_map_type_modifier.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_program_arrays.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_scalar_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_scalar_no_map_type_modifier.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_struct_default.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_subroutines_arrays.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_zero_length_pointer.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_private.c",
+   "Pragma": "#pragma omp target private"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_private.F90",
+   "Pragma": "!$omp target private"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_if.c",
+   "Pragma": "#pragma omp target data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_if.F90",
+   "Pragma": "!$omp target data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_alloc.c",
+   "Pragma": "#pragma omp target data map(alloc:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_array_sections.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_classes.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_from.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_to.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_tofrom.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_devices.c",
+   "Pragma": "#pragma omp target data map device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_devices.F90",
+   "Pragma": "!$omp target data map & !$omp device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_from_array_sections.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_to_from.c",
+   "Pragma": "#pragma omp target data map(from:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_to.c",
+   "Pragma": "#pragma omp target data map(to:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_tofrom.c",
+   "Pragma": "#pragma omp target data map(tofrom:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map.F90",
+   "Pragma": "!$omp target data map"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_data_data_pointer_swap.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_use_device_ptr.c",
+   "Pragma": "#pragma omp target data map use_device_ptr"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_allocate_array_alloc.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_allocate_array_to.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_inheritance.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_simple.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_components_alloc.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_components_to.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_depend.c",
+   "Pragma": "#pragma omp target enter data depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_devices.c",
+   "Pragma": "#pragma omp target enter data device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_devices.F90",
+   "Pragma": "!$omp target enter data & !$omp device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_global_array.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_if.c",
+   "Pragma": "#pragma omp target enter data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_if.F90",
+   "Pragma": "!$omp target enter data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_malloced_array.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_module_array.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_set_default_device.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_struct.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_allocate_array_alloc_delete.F90",
+   "Pragma": "!$omp target exit data map(delete:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_classes_complex.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_classes_simple.cpp",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_depend.c",
+   "Pragma": "#pragma omp target exit data depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_depend.F90",
+   "Pragma": "!$omp target exit data depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_devices.c",
+   "Pragma": "#pragma omp target exit data device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_devices.F90",
+   "Pragma": "!$omp target exit data & !$omp device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_if.c",
+   "Pragma": "#pragma omp target exit data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_if.F90",
+   "Pragma": "!$omp target exit data if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_global_array.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_malloced_array.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_pointer_translation.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_module_array.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_set_default_device.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_struct.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_parallel.c",
+   "Pragma": "#pragma omp target parallel"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_parallel.F90",
+   "Pragma": "!$pragma omp target parallel"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_nested_target_simd.c",
+   "Pragma": "#pragma omp simd"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_nested_target_simd.F90",
+   "Pragma": "!$omp simd"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_collapse.c",
+   "Pragma": "#pragma omp target simd collapse"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_safelen.c",
+   "Pragma": "#pragma omp target simd safelen"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_safelen.F90",
+   "Pragma": "!$omp target simd safelen"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_simdlen.c",
+   "Pragma": "#pragma omp target simd simdlen"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_simdlen.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd.c",
+   "Pragma": "#pragma omp target simd"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd.F90",
+   "Pragma": "!$omp target simd"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_collapse.c",
+   "Pragma": "#pragma omp target teams distribute collapse"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_collapse.F90",
+   "Pragma": "!$omp target teams distribute !$omp& collapse"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute default(firstprivate)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_none.c",
+   "Pragma": "#pragma omp target teams distribute default(none)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_none.F90",
+   "Pragma": "!$omp target teams distribute default(none)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_private.F90",
+   "Pragma": "!$omp target teams distribute default(private)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_shared.c",
+   "Pragma": "#pragma omp target teams distribute default(shared)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_shared.F90",
+   "Pragma": "!$omp target teams distribute default(shared)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_defaultmap.c",
+   "Pragma": "#pragma omp target teams distribute defaultmap"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_defaultmap.F90",
+   "Pragma": "!$omp target teams distribute defaultmap"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_array_section.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_array_section.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_disjoint_section.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_disjoint_section.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_in.c",
+   "Pragma": "#pragma omp target teams distribute depend(in:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_in.F90",
+   "Pragma": "!$omp target teams distribute depend(in:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_out.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_out.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_list.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_list.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_in.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": null,
+   "Test Name": "test_target_teams_distribute_depend_out_in.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_out.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_out.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_unused_data.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_unused_data.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_device.c",
+   "Pragma": "#pragma omp target teams distribute device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_device.F90",
+   "Pragma": "!$omp target teams distribute !$omp& device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_dist_schedule.c",
+   "Pragma": "#pragma omp target teams distribute dist_schedule"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_dist_schedule.F90",
+   "Pragma": "!$omp target teams distribute !$omp& dist_schedule"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_firstprivate.c",
+   "Pragma": "#pragma omp target teams distribute firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_if.c",
+   "Pragma": "#pragma omp target teams distribute if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_if.F90",
+   "Pragma": "!$omp target teams distribute if"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_is_device_ptr.c",
+   "Pragma": "#pragma omp target teams distribute is_device_ptr"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_lastprivate.c",
+   "Pragma": "#pragma omp target teams distribute lastprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_lastprivate.F90",
+   "Pragma": "!$omp target teams distribute lastprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_map.c",
+   "Pragma": "#pragma omp target teams distribute map"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_map.F90",
+   "Pragma": "!$omp target teams distribute map"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_nowait.c",
+   "Pragma": "#pragma omp target teams distribute nowait"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_nowait.F90",
+   "Pragma": "!$omp target teams distribute nowait"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_num_teams.c",
+   "Pragma": "#pragma omp target teams distribute num_teams"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_num_teams.F90",
+   "Pragma": "!$omp target teams distribute num_teams"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_private.c",
+   "Pragma": "#pragma omp target teams distribute private"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_private.F90",
+   "Pragma": "!$omp target teams distribute private"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_add.c",
+   "Pragma": "#pragma omp target teams distribute reduction(+:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_add.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(+:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_and.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&&:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_and.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(.and.:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(iand:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(|:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(ior:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(^:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(ieor:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_eqv.F90",
+   "Pragma": "!$omp target teams distribute reduction(.eqv.:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_max.c",
+   "Pragma": "#pragma omp target teams distribute reduction(max:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_max.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(max:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_min.c",
+   "Pragma": "#pragma omp target teams distribute reduction(min:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_min.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(min:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.c",
+   "Pragma": "#pragma omp target teams distribute reduction(*:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(*:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_neqv.F90",
+   "Pragma": "!$omp target teams distribute reduction(.neqv.:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_or.c",
+   "Pragma": "#pragma omp target teams distribute reduction(||:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_or.F90",
+   "Pragma": "!$omp target teams distribute reduction(.or.:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_sub.F90",
+   "Pragma": "!$omp target teams distribute reduction(-:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_subtract.c",
+   "Pragma": "#pragma omp target teams distribute reduction(-:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_shared.c",
+   "Pragma": "#pragma omp target teams distribute shared"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_shared.F90",
+   "Pragma": "!$omp target teams distribute shared"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_thread_limit.c",
+   "Pragma": "#pragma omp target teams distribute thread_limit"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_thread_limit.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& thread_limit"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute.c",
+   "Pragma": "#pragma omp target teams distribute"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute.F90",
+   "Pragma": "!$omp target teams distribute"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_defaultmap.c",
+   "Pragma": "#pragma omp target teams distribute parallel for defaultmap"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_devices.c",
+   "Pragma": "#pragma omp target teams distribute parallel for device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_devices.F90",
+   "Pragma": "!$omp target teams distribute parallel do device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_firstprivate.c",
+   "Pragma": "#pragma omp target teams distribute parallel for firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute parallel do& !$omp& firstprivate"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_no_modifier.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_no_modifier.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_parallel_modifier.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_parallel_modifier.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_target_modifier.c",
+   "Pragma": "#pragma omp target teams distribute parallel for if(target:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_target_modifier.F90",
+   "Pragma": "!$omp target teams distribute parallel do if(target:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_default.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_default.F90",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_from.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(from:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_from.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(from:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_to.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(to:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_to.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(to:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_tofrom.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(tofrom:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_tofrom.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(tofrom:)"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_teams.c",
+   "Pragma": "#pragma omp target teams distribute parallel for num_teams"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_teams.F90",
+   "Pragma": "!$omp target teams distribute parallel do num_teams"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_threads.c",
+   "Pragma": "#pragma omp target teams distribute parallel for num_threads"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_threads.F90",
+   "Pragma": "!$omp target teams distribute parallel do & !$omp& num_threads"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_private.c",
+   "Pragma": "#pragma omp target teams distribute parallel for private"
+ },
+ {
+   "OMP Version": null,
+   "Test Name": "test_target_teams_distribute_parallel_for_private.F90",
+   "Pragma": "!$omp target teams distribute parallel do private"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_schedule_private.c",
+   "Pragma": "#pragma omp target teams distribute parallel for schedule"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_thread_limit.c",
+   "Pragma": "#pragma omp target teams distribute parallel for thread_limit"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_thread_limit.F90",
+   "Pragma": "!$omp target teams distribute parallel do & thread_limit"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for.c",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for.F90",
+   "Pragma": "!$omp target teams distribute parallel do"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_depend.c",
+   "Pragma": "# pragma omp target update depend"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_devices.c",
+   "Pragma": "# pragma omp target update to device"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_devices.F90",
+   "Pragma": "!$omp target update to "
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_from.c",
+   "Pragma": "# pragma omp target update from"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_from.F90",
+   "Pragma": "!$omp target update from"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_if.c",
+   "Pragma": "# pragma omp target update if to"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_if.F90",
+   "Pragma": "!$omp target update if to"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_to.c",
+   "Pragma": "#pragma omp target update to"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_to.F90",
+   "Pragma": "!$omp target update to "
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_and_task_nowait.c",
+   "Pragma": "#pragma omp target map depend nowait"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_task_target.c",
+   "Pragma": "#pragma omp target map "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate_allocator.c",
+   "Pragma": "#pragma omp allocate allocator"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_alocate_allocator.F90",
+   "Pragma": "!$omp allocate allocator"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate_on_device.c",
+   "Pragma": "#pragma omp target use_allocators(omp_default_mem_alloc)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate.c",
+   "Pragma": "#pragma omp allocate allocator"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "declare_target_base_and_derived_class.cpp",
+   "Pragma": "#pragma omp target map, #pragma omp target teams distribute"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "declare_target_base_class.cpp",
+   "Pragma": "#pragma omp declare target"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_class.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_struct_array.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_struct_float_mul.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_template_array.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_template.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_ptr.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "lsms_triangular_packing.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for collapse"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_aquire_release.c",
+   "Pragma": "#pragma omp atomic write release, #pragma omp atomic read acquire"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_hint.c",
+   "Pragma": "#pragma omp atomic hint"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_num_hint_device.c",
+   "Pragma": "#pragma omp target map, #pragma omp atomic hint"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_num_hint.c",
+   "Pragma": "#pragma omp atomic hint(0x4)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_mapper_target_struct.c",
+   "Pragma": "#pragma omp declare mapper"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_mapper_target_struct.F90",
+   "Pragma": "!$omp declare mapper"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_any.c",
+   "Pragma": "#pragma omp declare target to device_type(any)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_host.c",
+   "Pragma": "#pragma omp declare target to device_type(host)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_nohost.c",
+   "Pragma": "#pragma omp declare target to device_type(nohost)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested_functions.c",
+   "Pragma": "#pragma omp declare target to"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested_functions.F90",
+   "Pragma": "!$omp declare target to"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested.c",
+   "Pragma": "nested #pragma omp declare target"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_parallel_for.c",
+   "Pragma": "#pragma omp declare target, #pragma omp parallel for "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_nested_declare_target.c",
+   "Pragma": "#pragma omp declare target "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_variant.c",
+   "Pragma": "#pragma omp declare variant match"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_variant.F90",
+   "Pragma": "!$omp declare variant match"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_depobj_depend_update_destroy.cpp",
+   "Pragma": "#pragma omp depobj "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_flush_no_memory_order_clause.c",
+   "Pragma": "#pragma omp flush"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_bind_device.c",
+   "Pragma": "#pragma omp loop bind"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_bind.c",
+   "Pragma": "#pragma omp loop bind"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_collapse_device.c",
+   "Pragma": "#pragma omp loop collapse"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_collapse.c",
+   "Pragma": "#pragma omp loop collapse"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate_device.c",
+   "Pragma": "#pragma omp loop lastprivate"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate_device.F90",
+   "Pragma": "!$omp loop lastprivate"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate.c",
+   "Pragma": "#pragma omp loop lastprivate"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate.F90",
+   "Pragma": "!$omp loop lastprivate"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_nested_device.c",
+   "Pragma": "#pragma omp loop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_nested.c",
+   "Pragma": "#pragma omp loop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent_device.c",
+   "Pragma": "#pragma omp loop order(concurrent)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent_device.F90",
+   "Pragma": "!$omp loop order(concurrent)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent.c",
+   "Pragma": "#pragma omp loop order(concurrent)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent.F90",
+   "Pragma": "!$omp loop order(concurrent)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private_device.c",
+   "Pragma": "#pragma omp loop prviate"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private_device.F90",
+   "Pragma": "!$omp loop private"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private.c",
+   "Pragma": "#pragma omp loop private"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add_device.c",
+   "Pragma": "#pragma omp loop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add_device.F90",
+   "Pragma": "!$omp loop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add.c",
+   "Pragma": "#pragma omp loop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add.F90",
+   "Pragma": "!$omp loop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and_device.c",
+   "Pragma": "#pragma omp loop reduction(&&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and_device.F90",
+   "Pragma": "!$omp loop reduction(.and.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and.c",
+   "Pragma": "#pragma omp loop reduction(&&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and.F90",
+   "Pragma": "!$omp loop reduction(.and.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitand_device.c",
+   "Pragma": "#pragma omp loop reduction(&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitand.c",
+   "Pragma": "#pragma omp loop reduction(&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitor.c",
+   "Pragma": "#pragma omp loop reduction(|)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitxor_device.c",
+   "Pragma": "#pragma omp loop reduction(|)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitxor.c",
+   "Pragma": "#pragma omp loop reduction(^)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max_device.c",
+   "Pragma": "#pragma omp loop reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max_device.F90",
+   "Pragma": "!$omp loop reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max.c",
+   "Pragma": "#pragma omp loop reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max.F90",
+   "Pragma": "!$omp loop reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min_device.c",
+   "Pragma": "#pragma omp loop reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min_device.F90",
+   "Pragma": "!$omp loop reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min.c",
+   "Pragma": "#pragma omp loop reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min.F90",
+   "Pragma": "!$omp loop reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply_device.c",
+   "Pragma": "#pragma omp loop reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply_device.F90",
+   "Pragma": "!$omp loop reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply.c",
+   "Pragma": "#pragma omp loop reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply.F90",
+   "Pragma": "!$omp loop reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or_device.c",
+   "Pragma": "#pragma omp loop reduction(||)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or_device.F90",
+   "Pragma": "!$omp loop reduction(.or.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or.c",
+   "Pragma": "#pragma omp loop reduction(||)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or.F90",
+   "Pragma": "!$omp loop reduction(.or.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract_device.c",
+   "Pragma": "#pragma omp loop reduction(-)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract_device.F90",
+   "Pragma": "!$omp loop reduction(-)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract.c",
+   "Pragma": "#pragma omp loop reduction(-:int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract.F90",
+   "Pragma": "!$omp loop reduction(-:int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_device.c",
+   "Pragma": "#pragma omp master taskloop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_device.F90",
+   "Pragma": "!$omp master taskloop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop.c",
+   "Pragma": "#pragma omp master taskloop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop.F90",
+   "Pragma": "!$omp master taskloop"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd_device.c",
+   "Pragma": "#pragma omp master taskloop simd"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd_device.F90",
+   "Pragma": "!$omp master taskloop simd"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd.c",
+   "Pragma": "#pragma omp master taskloop simd"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd.F90",
+   "Pragma": "!$omp master taskloop simd "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_metadirective_arch_is_nvidia.c",
+   "Pragma": "#pragma omp metadirective \\ when(device={arch(\"nvptx\")}: teams distribute parallel for) \\ default(parallel for)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_metadirective_arch_nvidia_or_amd.c",
+   "Pragma": "#pragma omp metadirective \\ when( implementation={vendor(nvidia)}: \\ teams num_teams(512) thread_limit(32) ) \\ when( implementation={vendor(amd)}: \\ teams num_teams(512) thread_limit(64) ) \\ default (teams)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_allocate.c",
+   "Pragma": "#pragma omp parallel for allocate(x_alloc: int*) private(int*) shared(int[][]) num_threads(OMPVV_NUM_THREADS_HOST)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_allocate.F90",
+   "Pragma": "!$omp parallel do allocate(x_alloc: int) private(int) & !$omp& shared(int[]) num_threads(OMPVV_NUM_THREADS_HOST)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_notequals.c",
+   "Pragma": "#pragma omp parallel for num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_order_concurrent.c",
+   "Pragma": "#pragma omp parallel for order(concurrent) num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_order_concurrent.F90",
+   "Pragma": "!$omp parallel do order(concurrent) & !$omp& num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_simd_atomic.c",
+   "Pragma": "#pragma omp parallel for simd shared(int) num_threads(OMPVV_NUM_THREADS_HOST)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_simd_atomic.F90",
+   "Pragma": "!$omp parallel do simd shared(int) & !$omp& num_threads(OMPVV_NUM_THREADS_HOST)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_device.c",
+   "Pragma": "#pragma omp parallel master num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_device.F90",
+   "Pragma": "!$omp parallel master num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master.c",
+   "Pragma": "#pragma omp parallel master num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master.F90",
+   "Pragma": "!$omp parallel master num_threads(OMPVV_NUM_THREADS_HOST) shared(inr[], int[], int[], int) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_device.c",
+   "Pragma": "#pragma omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master-taskloop_device.F90",
+   "Pragma": "!$omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop.c",
+   "Pragma": "#pragma omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop.F90",
+   "Pragma": " !$omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd_device.c",
+   "Pragma": "#pragma omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_DEVICE) shared(inr[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd_device.F90",
+   "Pragma": "!$omp target map(tofrom: int[], int) map(to: int[], int[]) !$omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd.c",
+   "Pragma": "#pragma omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd.F90",
+   "Pragma": "!$omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_capture_omp_affinity.c",
+   "Pragma": "nchars=omp_capture_affinity(buffer[thrd_num],(size_t)BUFFER_STORE,NULL);"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_get_device_num.c",
+   "Pragma": " original_device_num = omp_get_device_num();"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_get_supported_active_levels.c",
+   "Pragma": "num_supp_active_levels = omp_get_supported_active_levels();"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_DEFAULT.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_DISABLED.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_MANDATORY.c",
+   "Pragma": ""
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_set_and_get_omp_affinity.c",
+   "Pragma": "nchars = omp_get_affinity_format(default_format,(size_t)FORMAT_STORE);"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_acq_rel.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(acq_rel)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_relaxed.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(relaxed)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_seq_cst.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(seq_cst)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_dynamic_allocators.c",
+   "Pragma": "#pragma omp requires dynamic_allocators"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_dynamic_allocators.F90",
+   "Pragma": "!$omp requires dynamic_allocators"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_reverse_offload.c",
+   "Pragma": "#pragma omp requires reverse_offload"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_address.c",
+   "Pragma": "#pragma omp requires unified_address"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_omp_target_alloc_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_omp_target_alloc.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory.c",
+   "Pragma": "#pragma omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory.F90",
+   "Pragma": "!$omp requires unified_shared_memory"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_scan.c",
+   "Pragma": "#pragma omp scan inclusive(x)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_if.c",
+   "Pragma": "#pragma omp simd simdlen(64) if(k == N)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_if.F90",
+   "Pragma": "!$omp simd simdlen(64) if(k .eq. N)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_nontemporal.c",
+   "Pragma": "#pragma omp simd nontemporal (int[], int[], int[])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_order_concurrent.c",
+   "Pragma": "#pragma omp simd order(concurrent) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_allocate.c",
+   "Pragma": "#pragma omp target allocate(omp_default_mem_alloc:int) firstprivate(int) map(from: int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_allocate.F90",
+   "Pragma": "!$omp target allocate(omp_default_mem_alloc:int) firstprivate(int) map(from: int)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_default.c",
+   "Pragma": "#pragma omp target defaultmap(default) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_default.F90",
+   "Pragma": "!$omp target defaultmap(default)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_firstprivate.c",
+   "Pragma": "#pragma omp target defaultmap(firstprivate) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_firstprivate.F90",
+   "Pragma": "!$omp target defaultmap(firstprivate)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_none.c",
+   "Pragma": "#pragma omp target defaultmap(none) map(tofrom: int, int[], new_struct, ptr)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_none.F90",
+   "Pragma": "!$omp target defaultmap(none) map(tofrom: int, int[], int[], new_struct, ptr)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_to_from_tofrom.c",
+   "Pragma": "#pragma omp target defaultmap(to) //map(tofrom: int, int[], new_struct, ptr) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_to_from_tofrom.F90",
+   "Pragma": "!$omp target defaultmap(to)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_device.c",
+   "Pragma": "#pragma omp target map(alloc: array[0:N]) device(dev)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_imperfect_loop.c",
+   "Pragma": "#pragma omp parallel for collapse(2)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_imperfect_loop.F90",
+   "Pragma": " !$omp parallel do collapse(2)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_in_reduction.c",
+   "Pragma": "#pragma omp target in_reduction(+:sum)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_classes_default.cpp",
+   "Pragma": "#pragma omp target map(theArray[0:N]) map(theSize) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_with_close_modifier.c",
+   "Pragma": "#pragma omp target map (close, tofrom: scalar, a, member) "
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_with_close_modifier.F90",
+   "Pragma": "!$omp target map(close,tofrom : scalar, a, member)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_mapping_before_alloc.c",
+   "Pragma": "#pragma omp target map(alloc: scalar, a, member) map(to: scalar, a, member)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_mapping_before_alloc.F90",
+   "Pragma": "!$omp target map(alloc: scalar, a, test_struct) map(to: scalar, a, test_struct)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_parallel_for_notequals.c",
+   "Pragma": "#pragma omp target parallel for num_threads(OMPVV_NUM_THREADS_HOST) map(to: int[], int[]) map(tofrom: int[])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_task_depend_mutexinoutset.c",
+   "Pragma": "#pragma omp task depend(in: a) depend(mutexinoutset: c)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_task_depend_mutexinoutset.F90",
+   "Pragma": "!$omp task depend(in: a) depend(mutexinoutset: c)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_cgroup.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_cgroup_mem_alloc) allocate(omp_cgroup_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_cgroup.F90",
+   "Pragma": "!$omp target uses_allocators(omp_cgroup_mem_alloc) allocate(omp_cgroup_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_const.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_const_mem_alloc) allocate(omp_const_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_const.F90",
+   "Pragma": "!$omp target uses_allocators(omp_const_mem_alloc) allocate(omp_const_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_default.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_default_mem_alloc) allocate(omp_default_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_default.F90",
+   "Pragma": "!$omp target uses_allocators(omp_default_mem_alloc) allocate(omp_default_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_high_bw.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_high_bw_mem_alloc) allocate(omp_high_bw_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_high_bw.F90",
+   "Pragma": "!$omp target uses_allocators(omp_high_bw_mem_alloc) allocate(omp_high_bw_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_large_cap.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_large_cap_mem_alloc) allocate(omp_large_cap_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_large_cap.F90",
+   "Pragma": "!$omp target uses_allocators(omp_large_cap_mem_alloc) allocate(omp_large_cap_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_low_lat.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_low_lat_mem_alloc) allocate(omp_low_lat_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_low_lat.F90",
+   "Pragma": "!$omp target uses_allocators(omp_low_lat_mem_alloc) allocate(omp_low_lat_mem_alloc: x) firstprivate(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_pteam.c",
+   "Pragma": "#pragma omp target teams distribute uses_allocators(omp_pteam_mem_alloc) allocate(omp_pteam_mem_alloc: x) private(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_pteam.F90",
+   "Pragma": "!$omp target teams distribute uses_allocators(omp_pteam_mem_alloc) allocate(omp_pteam_mem_alloc: x) private(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_thread.c",
+   "Pragma": "#pragma omp target parallel uses_allocators(omp_thread_mem_alloc) allocate(omp_thread_mem_alloc: x) private(x) map(from: device_result)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_thread.F90",
+   "Pragma": "!$omp target teams distribute uses_allocators(omp_thread_mem_alloc) allocate(omp_thread_mem_alloc: x) private(x) map(from: device_result"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_addr.c",
+   "Pragma": "#pragma omp target data use_device_addr(device_data)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_addr.F90",
+   "Pragma": "!$omp target data map(to: device_data) map(from: device_out) use_device_addr(device_data, device_out)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_ptr.c",
+   "Pragma": "#pragma omp target is_device_ptr(array_device) map(tofrom: array_host[0:N])"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_ptr.F90",
+   "Pragma": "!$omp target data use_device_ptr"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_loop_teams_distribute.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_acq_rel.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(acq_rel)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_relaxed.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(relaxed)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_seq_cst.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(seq_cst)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_if.c",
+   "Pragma": "#pragma omp target simd if"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_if.F90",
+   "Pragma": "!$omp target simd if"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_nontemporal.c",
+   "Pragma": "#pragma simd target nontemporal"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_order_concurrent.c",
+   "Pragma": "#pragma omp target simd order(concurrent)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_add.c",
+   "Pragma": "#pragma omp target teams distribute reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_add.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_and.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_and.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.and.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(iand)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(|)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(ior)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(^)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(ieor)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_eqv.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.eqv.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_max.c",
+   "Pragma": "#pragma omp target teams distribute reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_max.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(max)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_min.c",
+   "Pragma": "#pragma omp target teams distribute reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_min.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(min)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.c",
+   "Pragma": "#pragma omp target teams distribute reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(*)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_neqv.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.neqv.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_or.c",
+   "Pragma": "#pragma omp target teams distribute reduction(||)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_or.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.or.)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_sub.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(-)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_subtract.c",
+   "Pragma": "#pragma omp target teams distribute reduction(-)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_collapse.c",
+   "Pragma": "#pragma omp target teams distribute parallel for collapse"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_collapse.F90",
+   "Pragma": "!$omp target teams distribute parallel do collapse"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_simd_atomic.c",
+   "Pragma": "# pragma omp target teams distribute parallel for simd, #pragma omp atomic update"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_simd_atomic.F90",
+   "Pragma": "!$omp target teams distribute parallel do simd, !$omp atomic update"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_from_discontiguous.c",
+   "Pragma": "#pragma omp declare mapper, #pragma omp target, #pragma omp target update from"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_from_discontiguous.F90",
+   "Pragma": "!$omp declare mapper, !$omp target, !$omp target update from"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_to_discontiguous.c",
+   "Pragma": "#pragma omp declare mapper, #pragma omp target update to"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_to_discontiguous.F90",
+   "Pragma": "!$omp declare mapper, !$omp target update to"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_reduction_task_device.c",
+   "Pragma": "#pramga omp parallel for reduction(task, +), #pragma omp task in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_reduction_task.c",
+   "Pragma": "#pramga omp parallel for reduction(task, +), #pragma omp task in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity_device.c",
+   "Pragma": "#pragma omp task depend shared affinity"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity_device.F90",
+   "Pragma": "!$omp task depend shared affinity"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity.c",
+   "Pragma": "#pragma omp task depend shared affinity"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity.F90",
+   "Pragma": "!$omp task depend shared affinity"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_depend_iterator.cpp",
+   "Pragma": "#pragma omp task depend(iterator)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_depend_mutexinoutset.c",
+   "Pragma": "#pragma omp task depend(mutexinoutset)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_detach.c",
+   "Pragma": "#pragma omp task detach"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_detach.F90",
+   "Pragma": "!$omp task detach"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction_dynamically_enclosed.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp taskloop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp task in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskgroup_task_reduction_device.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp task in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskgroup_task_reduction.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp task in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_reduction.c",
+   "Pragma": "#pragma omp taskloop reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop simp in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop simp in_reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_reduction.c",
+   "Pragma": "#pragma omp taskloop simd reduction(+)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskwait_depend.c",
+   "Pragma": "#pragma omp taskwait depend"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_team_default_shared.c",
+   "Pragma": "#pragma omp teams distribute default(shared)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_team_default_shared.F90",
+   "Pragma": "!$omp target teams distribute default(shared)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams_distribute_default_none.c",
+   "Pragma": "#pragma omp teams distribute default(none)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams_distribute_default_none.F90",
+   "Pragma": "!$omp teams distribute default(none)"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams.c",
+   "Pragma": "#pragma omp teams"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams.F90",
+   "Pragma": "!$omp teams    "
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_allocate_allocator_align.c",
+   "Pragma": "#pragma omp allocate allocator align"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_atomic_compare_device.c",
+   "Pragma": "#pragma omp atomic compare"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_atomic_compare.c",
+   "Pragma": "#pragma omp atomic compare"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_cpp_attribute_specifier.cpp",
+   "Pragma": "note: different syntax test"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_begin_end_declare_variant.c",
+   "Pragma": "#pragma omp begin declare variant"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_default_firstprivate_parallel.c",
+   "Pragma": "#pragma omp parallel default(firstprivate)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_default_firstprivate_taskloop.c",
+   "Pragma": "#pragma omp taskloop default(firstprivate)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_default_firstprivate.c",
+   "Pragma": "#pragma omp task default(firstprivate)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_default_private.c",
+   "Pragma": "#pragma omp task default(private)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_target_default_firstprivate.c",
+   "Pragma": "#pragma omp target, #pragma omp task default(firstprivate)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omop_num_teams_env_2.c",
+   "Pragma": "test omp_get_max_teams()"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omp_teams_thread_limit_env_2.c",
+   "Pragma": "test omp_get_teams_thread_limit()"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_get_mapped_ptr.c",
+   "Pragma": "test omp_get_mapped_ptr()"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_parallel_for_order_reproducible.c",
+   "Pragma": "#pragma omp for order(reproducible:concurrent)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omp_display_env.c",
+   "Pragma": "test omp_display_env()"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_defaultmap_present_scalar.c",
+   "Pragma": "#pragma omp target defaultmap(scalar)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_defaultmap_present.c",
+   "Pragma": "#pragma omp target defaultmap(present)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_has_device_addr.c",
+   "Pragma": "#pragma omp target map"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target-memcpy_async.depobj.c",
+   "Pragma": "#pragma omp depobj, test omp_target_memcpy_async()"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_memcpy_async_no_obj.c",
+   "Pragma": "#pragma omp, test omp_target_memcpy_async"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_update_to_present.c",
+   "Pragma": "#pragma omp target update to"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_taskloop_grainsize_strict.c",
+   "Pragma": "#pragma omp taskloop grainsize(strict)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_taskloop_numtask_strict.c",
+   "Pragma": "#pragma omp taskloop num_tasks(strict)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_nowait.c",
+   "Pragma": "#pragma omp taskwait nowait"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_teams_default_firstprivate.c",
+   "Pragma": "#pragma omp target teams default(firstprivate)"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_teams_thread_limit.c",
+   "Pragma": "#pragma omp target thread_limit"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_tile.c",
+   "Pragma": "#pragma omp tile"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_declare_target_enter_device_type_any.c",
+   "Pragma": "#pragma omp declare target enter device_type(any)"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_declare_target_enter.c",
+   "Pragma": "#pragma omp declare target enter"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_print_in_target_region.F90",
+   "Pragma": "!omp target"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_printf_in_target_region.c",
+   "Pragma": "#pragma omp target"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_enter_data_map.c",
+   "Pragma": "#pragma omp target enter data"
+ }
+]

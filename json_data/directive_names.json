@@ -1,0 +1,524 @@
+[
+ {
+   "Directive": "allocate",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "atomic",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "barrier",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "begin declare target",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "begin declare variant",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "cancel",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "cancellation point",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "critical",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "declare mapper",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "declare reduction",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "declare simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "declare target",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "declare variant",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "depend",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "depobj",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "dispatch",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "distribute",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "distribute parallel for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "distribute parallel for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "distribute simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "end declare target",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "end declare variant",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "error",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "flush",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "interop",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "loop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "masked",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "masked taskloop",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "masked taskloop simd",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "master",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "master taskloop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "master taskloop simd",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "nothing",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "order",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "ordered",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel loop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel masked",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel masked taskloop",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel masked taskloop simd",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel master",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "parallel master taskloop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "parallel master taskloop simd",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Directive": "parallel sections",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "parallel workshare",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "requires",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "scan",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "scope",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "sections",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "single",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target data",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target enter data",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target exit data",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target parallel",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target parallel for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target parallel for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target parallel loop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams distribute",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams distribute parallel for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams distribute parallel for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams distribute simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target teams loop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "target update",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "task",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "taskgroup",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "taskloop",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "taskloop simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "taskwait",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "taskyield",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams distribute",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams distribute parallel for",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams distribute parallel for simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams distribute simd",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "teams loop",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "threadprivate",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Directive": "tile",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "unroll",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Directive": "workshare",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ }
+]
