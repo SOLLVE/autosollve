@@ -8,24 +8,15 @@ import json
 import collections
 import argparse
 
-json_directive_names_path = os.path.join("/home/nikhil/Desktop/SOLLVE/directive_names.json")
+json_directive_names_path = os.path.join("/SOLLVE/directive_names.json") #path to dir json
 json_directive_names_file= open(json_directive_names_path)
 dir_names=json.load(json_directive_names_file)
 
-json_env_names_path = os.path.join("/home/nikhil/Desktop/SOLLVE/runtime_library_names.json")
+json_env_names_path = os.path.join("/SOLLVE/runtime_library_names.json") #path to runtime_lib json
 json_env_names_file= open(json_env_names_path)
 env_names=json.load(json_env_names_file)
 
-#print(json_directive_files)
-#print()
-#print(json_clause_files)
-#print()
-#print(json_clause_group_files)
 
-
-#print(len(entiredirlist))
-#print(len(json_directive_files))
-#print(dir_names[0]["4.5"])
 def get_dirlist(omp_ver, dir_names):
     entiredirlist=[]
     for b in range(len(dir_names)):
