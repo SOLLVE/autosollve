@@ -321,7 +321,7 @@ def result_display(test_names_list, omp_version):
 
             if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version:
                 if printed==0:
-                    print("Test Name: "+resultdb[b]["Test name"]+"OpenMP Version: "+resultdb[b]["OMP version"])
+                    print("Test Name: "+resultdb[b]["Test name"]+" OpenMP Version: "+resultdb[b]["OMP version"])
                     for d in range(len(testnamesdb)):
                         if testnamesdb[d]["Test Name"]==resultdb[b]["Test name"]:
                             print("Related Pragma: "+testnamesdb[d]["Pragma"])
@@ -373,7 +373,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('file', type=argparse.FileType('r'))
     file_loc = parser.parse_args()
-    print(file_loc)
+    #print(file_loc)
     #file_loc=input("Enter file name: ")
     print()
     print("----------------------------------------------------------------------")
