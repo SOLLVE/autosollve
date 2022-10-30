@@ -1,0 +1,3038 @@
+[
+ {
+   "OMP Version": 4.5,
+   "Test Name": "alpaka_complex_template.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "declare_target_module.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "declare_target_subroutine.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_many_matrices.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_reduction.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target_teams_dist_par_for.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gemv_target.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "gridmini_map_struct_float_mul.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "linked_list.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "mmm_target_parallel_for_simd.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "mmm_target.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "omp_default_device.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "qmcpack_target_math.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "qmcpack_target_static_lib.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "reduction_separated_directives.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "reduction_separated_directives.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_end_declare_target.c",
+   "Pragma": "#pragma omp end declare target",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_extended_list.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_link_extended_list.c",
+   "Pragma": "#pragma omp declare target link",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_declare_target_to_extended_list.c",
+   "Pragma": "#pragma omp declare target to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_defaultmap.c",
+   "Pragma": "#pragma omp target defaultmap",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_defaultmap.F90",
+   "Pragma": "!$omp target defaultmap",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_depends.c",
+   "Pragma": "#pragma omp target depend",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_depends.F90",
+   "Pragma": "!$omp target depend",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_device.c",
+   "Pragma": "#pragma omp target device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_device.F90",
+   "Pragma": "!$omp target device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_firstprivate.c",
+   "Pragma": "#pragma omp target firstprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_firstprivate.F90",
+   "Pragma": "!$omp target firstprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_if.c",
+   "Pragma": "#pragma omp target if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_if.F90",
+   "Pragma": "!$omp target if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_is_device_ptr.c",
+   "Pragma": "#pragma omp target is_device_ptr",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_array_default.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_array_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_classes_default.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_components_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_global_arrays.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_local_array.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_module_array.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer_no_map_type_modifier.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_pointer.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_program_arrays.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_scalar_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_scalar_no_map_type_modifier.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_struct_default.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_subroutines_arrays.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_map_zero_length_pointer.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_private.c",
+   "Pragma": "#pragma omp target private",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_private.F90",
+   "Pragma": "!$omp target private",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_if.c",
+   "Pragma": "#pragma omp target data if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_if.F90",
+   "Pragma": "!$omp target data if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_alloc.c",
+   "Pragma": "#pragma omp target data map(alloc:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_array_sections.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_classes.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_from.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_to.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_components_tofrom.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_devices.c",
+   "Pragma": "#pragma omp target data map device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_devices.F90",
+   "Pragma": "!$omp target data map & !$omp device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_from_array_sections.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_to_from.c",
+   "Pragma": "#pragma omp target data map(from:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_to.c",
+   "Pragma": "#pragma omp target data map(to:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map_tofrom.c",
+   "Pragma": "#pragma omp target data map(tofrom:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_map.F90",
+   "Pragma": "!$omp target data map",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_data_data_pointer_swap.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_data_use_device_ptr.c",
+   "Pragma": "#pragma omp target data map use_device_ptr",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_allocate_array_alloc.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_allocate_array_to.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_inheritance.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_simple.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_classes_components_alloc.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_components_to.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_depend.c",
+   "Pragma": "#pragma omp target enter data depend",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_devices.c",
+   "Pragma": "#pragma omp target enter data device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_devices.F90",
+   "Pragma": "!$omp target enter data & !$omp device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_global_array.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_if.c",
+   "Pragma": "#pragma omp target enter data if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_if.F90",
+   "Pragma": "!$omp target enter data if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_malloced_array.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_module_array.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_set_default_device.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_data_struct.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_allocate_array_alloc_delete.F90",
+   "Pragma": "!$omp target exit data map(delete:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_classes_complex.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_classes_simple.cpp",
+   "Pragma": "",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_depend.c",
+   "Pragma": "#pragma omp target exit data depend",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_depend.F90",
+   "Pragma": "!$omp target exit data depend",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_devices.c",
+   "Pragma": "#pragma omp target exit data device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_devices.F90",
+   "Pragma": "!$omp target exit data & !$omp device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_if.c",
+   "Pragma": "#pragma omp target exit data if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_if.F90",
+   "Pragma": "!$omp target exit data if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_global_array.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_malloced_array.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_map_pointer_translation.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_module_array.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_set_default_device.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_enter_exit_data_struct.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_parallel.c",
+   "Pragma": "#pragma omp target parallel",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_parallel.F90",
+   "Pragma": "!$pragma omp target parallel",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_nested_target_simd.c",
+   "Pragma": "#pragma omp simd",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_nested_target_simd.F90",
+   "Pragma": "!$omp simd",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_collapse.c",
+   "Pragma": "#pragma omp target simd collapse",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_safelen.c",
+   "Pragma": "#pragma omp target simd safelen",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_safelen.F90",
+   "Pragma": "!$omp target simd safelen",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_simdlen.c",
+   "Pragma": "#pragma omp target simd simdlen",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd_simdlen.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd.c",
+   "Pragma": "#pragma omp target simd",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_simd.F90",
+   "Pragma": "!$omp target simd",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_collapse.c",
+   "Pragma": "#pragma omp target teams distribute collapse",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_collapse.F90",
+   "Pragma": "!$omp target teams distribute !$omp& collapse",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute default(firstprivate)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_none.c",
+   "Pragma": "#pragma omp target teams distribute default(none)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_none.F90",
+   "Pragma": "!$omp target teams distribute default(none)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_private.F90",
+   "Pragma": "!$omp target teams distribute default(private)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_shared.c",
+   "Pragma": "#pragma omp target teams distribute default(shared)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_default_shared.F90",
+   "Pragma": "!$omp target teams distribute default(shared)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_defaultmap.c",
+   "Pragma": "#pragma omp target teams distribute defaultmap",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_defaultmap.F90",
+   "Pragma": "!$omp target teams distribute defaultmap",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_array_section.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_array_section.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_disjoint_section.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_disjoint_section.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_in.c",
+   "Pragma": "#pragma omp target teams distribute depend(in:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_in.F90",
+   "Pragma": "!$omp target teams distribute depend(in:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_out.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_in_out.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_list.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_list.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_in.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": null,
+   "Test Name": "test_target_teams_distribute_depend_out_in.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_out.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_out_out.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_unused_data.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_depend_unused_data.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_device.c",
+   "Pragma": "#pragma omp target teams distribute device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_device.F90",
+   "Pragma": "!$omp target teams distribute !$omp& device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_dist_schedule.c",
+   "Pragma": "#pragma omp target teams distribute dist_schedule",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_dist_schedule.F90",
+   "Pragma": "!$omp target teams distribute !$omp& dist_schedule",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_firstprivate.c",
+   "Pragma": "#pragma omp target teams distribute firstprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute firstprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_if.c",
+   "Pragma": "#pragma omp target teams distribute if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_if.F90",
+   "Pragma": "!$omp target teams distribute if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_is_device_ptr.c",
+   "Pragma": "#pragma omp target teams distribute is_device_ptr",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_lastprivate.c",
+   "Pragma": "#pragma omp target teams distribute lastprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_lastprivate.F90",
+   "Pragma": "!$omp target teams distribute lastprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_map.c",
+   "Pragma": "#pragma omp target teams distribute map",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_map.F90",
+   "Pragma": "!$omp target teams distribute map",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_nowait.c",
+   "Pragma": "#pragma omp target teams distribute nowait",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_nowait.F90",
+   "Pragma": "!$omp target teams distribute nowait",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_num_teams.c",
+   "Pragma": "#pragma omp target teams distribute num_teams",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_num_teams.F90",
+   "Pragma": "!$omp target teams distribute num_teams",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_private.c",
+   "Pragma": "#pragma omp target teams distribute private",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_private.F90",
+   "Pragma": "!$omp target teams distribute private",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_add.c",
+   "Pragma": "#pragma omp target teams distribute reduction(+:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_add.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(+:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_and.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&&:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_and.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(.and.:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(iand:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(|:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(ior:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(^:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(ieor:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_eqv.F90",
+   "Pragma": "!$omp target teams distribute reduction(.eqv.:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_max.c",
+   "Pragma": "#pragma omp target teams distribute reduction(max:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_max.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(max:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_min.c",
+   "Pragma": "#pragma omp target teams distribute reduction(min:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_min.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(min:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.c",
+   "Pragma": "#pragma omp target teams distribute reduction(*:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& reduction(*:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_neqv.F90",
+   "Pragma": "!$omp target teams distribute reduction(.neqv.:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_or.c",
+   "Pragma": "#pragma omp target teams distribute reduction(||:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_or.F90",
+   "Pragma": "!$omp target teams distribute reduction(.or.:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_sub.F90",
+   "Pragma": "!$omp target teams distribute reduction(-:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_reduction_subtract.c",
+   "Pragma": "#pragma omp target teams distribute reduction(-:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_shared.c",
+   "Pragma": "#pragma omp target teams distribute shared",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_shared.F90",
+   "Pragma": "!$omp target teams distribute shared",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_thread_limit.c",
+   "Pragma": "#pragma omp target teams distribute thread_limit",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_thread_limit.F90",
+   "Pragma": "!$omp target teams distribute & !$omp& thread_limit",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute.c",
+   "Pragma": "#pragma omp target teams distribute",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute.F90",
+   "Pragma": "!$omp target teams distribute",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_defaultmap.c",
+   "Pragma": "#pragma omp target teams distribute parallel for defaultmap",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_devices.c",
+   "Pragma": "#pragma omp target teams distribute parallel for device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_devices.F90",
+   "Pragma": "!$omp target teams distribute parallel do device",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_firstprivate.c",
+   "Pragma": "#pragma omp target teams distribute parallel for firstprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_firstprivate.F90",
+   "Pragma": "!$omp target teams distribute parallel do& !$omp& firstprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_no_modifier.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_no_modifier.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_parallel_modifier.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_parallel_modifier.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_target_modifier.c",
+   "Pragma": "#pragma omp target teams distribute parallel for if(target:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_if_target_modifier.F90",
+   "Pragma": "!$omp target teams distribute parallel do if(target:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_default.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_default.F90",
+   "Pragma": "",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_from.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(from:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_from.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(from:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_to.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(to:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_to.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(to:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_tofrom.c",
+   "Pragma": "#pragma omp target teams distribute parallel for map(tofrom:)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_map_tofrom.F90",
+   "Pragma": "!$omp target teams distribute parallel do map(tofrom:)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_teams.c",
+   "Pragma": "#pragma omp target teams distribute parallel for num_teams",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_teams.F90",
+   "Pragma": "!$omp target teams distribute parallel do num_teams",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_threads.c",
+   "Pragma": "#pragma omp target teams distribute parallel for num_threads",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_num_threads.F90",
+   "Pragma": "!$omp target teams distribute parallel do & !$omp& num_threads",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_private.c",
+   "Pragma": "#pragma omp target teams distribute parallel for private",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": null,
+   "Test Name": "test_target_teams_distribute_parallel_for_private.F90",
+   "Pragma": "!$omp target teams distribute parallel do private",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_schedule_private.c",
+   "Pragma": "#pragma omp target teams distribute parallel for schedule",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_thread_limit.c",
+   "Pragma": "#pragma omp target teams distribute parallel for thread_limit",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for_thread_limit.F90",
+   "Pragma": "!$omp target teams distribute parallel do & thread_limit",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for.c",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_teams_distribute_parallel_for.F90",
+   "Pragma": "!$omp target teams distribute parallel do",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_depend.c",
+   "Pragma": "# pragma omp target update depend",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_devices.c",
+   "Pragma": "# pragma omp target update to device",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_devices.F90",
+   "Pragma": "!$omp target update to ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_from.c",
+   "Pragma": "# pragma omp target update from",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_from.F90",
+   "Pragma": "!$omp target update from",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_if.c",
+   "Pragma": "# pragma omp target update if to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_if.F90",
+   "Pragma": "!$omp target update if to",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_to.c",
+   "Pragma": "#pragma omp target update to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_update_to.F90",
+   "Pragma": "!$omp target update to ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_target_and_task_nowait.c",
+   "Pragma": "#pragma omp target map depend nowait",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 4.5,
+   "Test Name": "test_task_target.c",
+   "Pragma": "#pragma omp target map ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate_allocator.c",
+   "Pragma": "#pragma omp allocate allocator",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_alocate_allocator.F90",
+   "Pragma": "!$omp allocate allocator",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate_on_device.c",
+   "Pragma": "#pragma omp target use_allocators(omp_default_mem_alloc)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_allocate.c",
+   "Pragma": "#pragma omp allocate allocator",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "declare_target_base_and_derived_class.cpp",
+   "Pragma": "#pragma omp target map, #pragma omp target teams distribute",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "declare_target_base_class.cpp",
+   "Pragma": "#pragma omp declare target",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_class.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_struct_array.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_struct_float_mul.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_template_array.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_map_template.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "gridmini_ptr.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "lsms_triangular_packing.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for collapse",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_aquire_release.c",
+   "Pragma": "#pragma omp atomic write release, #pragma omp atomic read acquire",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_hint.c",
+   "Pragma": "#pragma omp atomic hint",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_num_hint_device.c",
+   "Pragma": "#pragma omp target map, #pragma omp atomic hint",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_atomic_num_hint.c",
+   "Pragma": "#pragma omp atomic hint(0x4)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_mapper_target_struct.c",
+   "Pragma": "#pragma omp declare mapper",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_mapper_target_struct.F90",
+   "Pragma": "!$omp declare mapper",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_any.c",
+   "Pragma": "#pragma omp declare target to device_type(any)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_host.c",
+   "Pragma": "#pragma omp declare target to device_type(host)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_device_type_nohost.c",
+   "Pragma": "#pragma omp declare target to device_type(nohost)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested_functions.c",
+   "Pragma": "#pragma omp declare target to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested_functions.F90",
+   "Pragma": "!$omp declare target to",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_nested.c",
+   "Pragma": "nested #pragma omp declare target",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_target_parallel_for.c",
+   "Pragma": "#pragma omp declare target, #pragma omp parallel for ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_nested_declare_target.c",
+   "Pragma": "#pragma omp declare target ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_variant.c",
+   "Pragma": "#pragma omp declare variant match",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_declare_variant.F90",
+   "Pragma": "!$omp declare variant match",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_depobj_depend_update_destroy.cpp",
+   "Pragma": "#pragma omp depobj ",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_flush_no_memory_order_clause.c",
+   "Pragma": "#pragma omp flush",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_bind_device.c",
+   "Pragma": "#pragma omp loop bind",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_bind.c",
+   "Pragma": "#pragma omp loop bind",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_collapse_device.c",
+   "Pragma": "#pragma omp loop collapse",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_collapse.c",
+   "Pragma": "#pragma omp loop collapse",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate_device.c",
+   "Pragma": "#pragma omp loop lastprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate_device.F90",
+   "Pragma": "!$omp loop lastprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate.c",
+   "Pragma": "#pragma omp loop lastprivate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_lastprivate.F90",
+   "Pragma": "!$omp loop lastprivate",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_nested_device.c",
+   "Pragma": "#pragma omp loop",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_nested.c",
+   "Pragma": "#pragma omp loop",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent_device.c",
+   "Pragma": "#pragma omp loop order(concurrent)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent_device.F90",
+   "Pragma": "!$omp loop order(concurrent)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent.c",
+   "Pragma": "#pragma omp loop order(concurrent)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_order_concurrent.F90",
+   "Pragma": "!$omp loop order(concurrent)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private_device.c",
+   "Pragma": "#pragma omp loop prviate",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private_device.F90",
+   "Pragma": "!$omp loop private",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_private.c",
+   "Pragma": "#pragma omp loop private",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add_device.c",
+   "Pragma": "#pragma omp loop reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add_device.F90",
+   "Pragma": "!$omp loop reduction(+)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add.c",
+   "Pragma": "#pragma omp loop reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_add.F90",
+   "Pragma": "!$omp loop reduction(+)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and_device.c",
+   "Pragma": "#pragma omp loop reduction(&&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and_device.F90",
+   "Pragma": "!$omp loop reduction(.and.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and.c",
+   "Pragma": "#pragma omp loop reduction(&&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_and.F90",
+   "Pragma": "!$omp loop reduction(.and.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitand_device.c",
+   "Pragma": "#pragma omp loop reduction(&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitand.c",
+   "Pragma": "#pragma omp loop reduction(&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitor.c",
+   "Pragma": "#pragma omp loop reduction(|)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitxor_device.c",
+   "Pragma": "#pragma omp loop reduction(|)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_bitxor.c",
+   "Pragma": "#pragma omp loop reduction(^)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max_device.c",
+   "Pragma": "#pragma omp loop reduction(max)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max_device.F90",
+   "Pragma": "!$omp loop reduction(max)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max.c",
+   "Pragma": "#pragma omp loop reduction(max)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_max.F90",
+   "Pragma": "!$omp loop reduction(max)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min_device.c",
+   "Pragma": "#pragma omp loop reduction(min)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min_device.F90",
+   "Pragma": "!$omp loop reduction(min)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min.c",
+   "Pragma": "#pragma omp loop reduction(min)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_min.F90",
+   "Pragma": "!$omp loop reduction(min)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply_device.c",
+   "Pragma": "#pragma omp loop reduction(*)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply_device.F90",
+   "Pragma": "!$omp loop reduction(*)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply.c",
+   "Pragma": "#pragma omp loop reduction(*)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_multiply.F90",
+   "Pragma": "!$omp loop reduction(*)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or_device.c",
+   "Pragma": "#pragma omp loop reduction(||)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or_device.F90",
+   "Pragma": "!$omp loop reduction(.or.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or.c",
+   "Pragma": "#pragma omp loop reduction(||)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_or.F90",
+   "Pragma": "!$omp loop reduction(.or.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract_device.c",
+   "Pragma": "#pragma omp loop reduction(-)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract_device.F90",
+   "Pragma": "!$omp loop reduction(-)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract.c",
+   "Pragma": "#pragma omp loop reduction(-:int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_loop_reduction_subtract.F90",
+   "Pragma": "!$omp loop reduction(-:int)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_device.c",
+   "Pragma": "#pragma omp master taskloop",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_device.F90",
+   "Pragma": "!$omp master taskloop",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop.c",
+   "Pragma": "#pragma omp master taskloop",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop.F90",
+   "Pragma": "!$omp master taskloop",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd_device.c",
+   "Pragma": "#pragma omp master taskloop simd",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd_device.F90",
+   "Pragma": "!$omp master taskloop simd",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd.c",
+   "Pragma": "#pragma omp master taskloop simd",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_master_taskloop_simd.F90",
+   "Pragma": "!$omp master taskloop simd ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_metadirective_arch_is_nvidia.c",
+   "Pragma": "#pragma omp metadirective \\ when(device={arch(\"nvptx\")}: teams distribute parallel for) \\ default(parallel for)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_metadirective_arch_nvidia_or_amd.c",
+   "Pragma": "#pragma omp metadirective \\ when( implementation={vendor(nvidia)}: \\ teams num_teams(512) thread_limit(32) ) \\ when( implementation={vendor(amd)}: \\ teams num_teams(512) thread_limit(64) ) \\ default (teams)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_allocate.c",
+   "Pragma": "#pragma omp parallel for allocate(x_alloc: int*) private(int*) shared(int[][]) num_threads(OMPVV_NUM_THREADS_HOST)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_allocate.F90",
+   "Pragma": "!$omp parallel do allocate(x_alloc: int) private(int) & !$omp& shared(int[]) num_threads(OMPVV_NUM_THREADS_HOST)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_notequals.c",
+   "Pragma": "#pragma omp parallel for num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_order_concurrent.c",
+   "Pragma": "#pragma omp parallel for order(concurrent) num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_order_concurrent.F90",
+   "Pragma": "!$omp parallel do order(concurrent) & !$omp& num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[])",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_simd_atomic.c",
+   "Pragma": "#pragma omp parallel for simd shared(int) num_threads(OMPVV_NUM_THREADS_HOST)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_simd_atomic.F90",
+   "Pragma": "!$omp parallel do simd shared(int) & !$omp& num_threads(OMPVV_NUM_THREADS_HOST)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_device.c",
+   "Pragma": "#pragma omp parallel master num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_device.F90",
+   "Pragma": "!$omp parallel master num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int) ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master.c",
+   "Pragma": "#pragma omp parallel master num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master.F90",
+   "Pragma": "!$omp parallel master num_threads(OMPVV_NUM_THREADS_HOST) shared(inr[], int[], int[], int) ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_device.c",
+   "Pragma": "#pragma omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master-taskloop_device.F90",
+   "Pragma": "!$omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int) ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop.c",
+   "Pragma": "#pragma omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop.F90",
+   "Pragma": " !$omp parallel master taskloop num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int) ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd_device.c",
+   "Pragma": "#pragma omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_DEVICE) shared(inr[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd_device.F90",
+   "Pragma": "!$omp target map(tofrom: int[], int) map(to: int[], int[]) !$omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_DEVICE) shared(int[], int[], int[], int)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd.c",
+   "Pragma": "#pragma omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_master_taskloop_simd.F90",
+   "Pragma": "!$omp parallel master taskloop simd num_threads(OMPVV_NUM_THREADS_HOST) shared(int[], int[], int[], int)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_capture_omp_affinity.c",
+   "Pragma": "nchars=omp_capture_affinity(buffer[thrd_num],(size_t)BUFFER_STORE,NULL);",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_get_device_num.c",
+   "Pragma": " original_device_num = omp_get_device_num();",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_get_supported_active_levels.c",
+   "Pragma": "num_supp_active_levels = omp_get_supported_active_levels();",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_DEFAULT.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_DISABLED.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_omp_target_offload_env_MANDATORY.c",
+   "Pragma": "",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_set_and_get_omp_affinity.c",
+   "Pragma": "nchars = omp_get_affinity_format(default_format,(size_t)FORMAT_STORE);",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_acq_rel.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(acq_rel)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_relaxed.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(relaxed)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_atomic_default_mem_order_seq_cst.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(seq_cst)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_dynamic_allocators.c",
+   "Pragma": "#pragma omp requires dynamic_allocators",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_dynamic_allocators.F90",
+   "Pragma": "!$omp requires dynamic_allocators",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_reverse_offload.c",
+   "Pragma": "#pragma omp requires reverse_offload",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_address.c",
+   "Pragma": "#pragma omp requires unified_address",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_heap.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_omp_target_alloc_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_omp_target_alloc.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_stack.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static_is_device_ptr.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static_map.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory_static.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory.c",
+   "Pragma": "#pragma omp requires unified_shared_memory",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_requires_unified_shared_memory.F90",
+   "Pragma": "!$omp requires unified_shared_memory",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_scan.c",
+   "Pragma": "#pragma omp scan inclusive(x)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_if.c",
+   "Pragma": "#pragma omp simd simdlen(64) if(k == N)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_if.F90",
+   "Pragma": "!$omp simd simdlen(64) if(k .eq. N)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_nontemporal.c",
+   "Pragma": "#pragma omp simd nontemporal (int[], int[], int[])",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_simd_order_concurrent.c",
+   "Pragma": "#pragma omp simd order(concurrent) ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_allocate.c",
+   "Pragma": "#pragma omp target allocate(omp_default_mem_alloc:int) firstprivate(int) map(from: int)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_allocate.F90",
+   "Pragma": "!$omp target allocate(omp_default_mem_alloc:int) firstprivate(int) map(from: int)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_default.c",
+   "Pragma": "#pragma omp target defaultmap(default) ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_default.F90",
+   "Pragma": "!$omp target defaultmap(default)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_firstprivate.c",
+   "Pragma": "#pragma omp target defaultmap(firstprivate) ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_firstprivate.F90",
+   "Pragma": "!$omp target defaultmap(firstprivate)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_none.c",
+   "Pragma": "#pragma omp target defaultmap(none) map(tofrom: int, int[], new_struct, ptr)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_none.F90",
+   "Pragma": "!$omp target defaultmap(none) map(tofrom: int, int[], int[], new_struct, ptr)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_to_from_tofrom.c",
+   "Pragma": "#pragma omp target defaultmap(to) //map(tofrom: int, int[], new_struct, ptr) ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_defaultmap_to_from_tofrom.F90",
+   "Pragma": "!$omp target defaultmap(to)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_device.c",
+   "Pragma": "#pragma omp target map(alloc: array[0:N]) device(dev)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_imperfect_loop.c",
+   "Pragma": "#pragma omp parallel for collapse(2)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_imperfect_loop.F90",
+   "Pragma": " !$omp parallel do collapse(2)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_in_reduction.c",
+   "Pragma": "#pragma omp target in_reduction(+:sum)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_classes_default.cpp",
+   "Pragma": "#pragma omp target map(theArray[0:N]) map(theSize) ",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_with_close_modifier.c",
+   "Pragma": "#pragma omp target map (close, tofrom: scalar, a, member) ",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_map_with_close_modifier.F90",
+   "Pragma": "!$omp target map(close,tofrom : scalar, a, member)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_mapping_before_alloc.c",
+   "Pragma": "#pragma omp target map(alloc: scalar, a, member) map(to: scalar, a, member)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_mapping_before_alloc.F90",
+   "Pragma": "!$omp target map(alloc: scalar, a, test_struct) map(to: scalar, a, test_struct)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_parallel_for_notequals.c",
+   "Pragma": "#pragma omp target parallel for num_threads(OMPVV_NUM_THREADS_HOST) map(to: int[], int[]) map(tofrom: int[])",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_task_depend_mutexinoutset.c",
+   "Pragma": "#pragma omp task depend(in: a) depend(mutexinoutset: c)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_task_depend_mutexinoutset.F90",
+   "Pragma": "!$omp task depend(in: a) depend(mutexinoutset: c)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_cgroup.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_cgroup_mem_alloc) allocate(omp_cgroup_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_cgroup.F90",
+   "Pragma": "!$omp target uses_allocators(omp_cgroup_mem_alloc) allocate(omp_cgroup_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_const.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_const_mem_alloc) allocate(omp_const_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_const.F90",
+   "Pragma": "!$omp target uses_allocators(omp_const_mem_alloc) allocate(omp_const_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_default.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_default_mem_alloc) allocate(omp_default_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_default.F90",
+   "Pragma": "!$omp target uses_allocators(omp_default_mem_alloc) allocate(omp_default_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_high_bw.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_high_bw_mem_alloc) allocate(omp_high_bw_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_high_bw.F90",
+   "Pragma": "!$omp target uses_allocators(omp_high_bw_mem_alloc) allocate(omp_high_bw_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_large_cap.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_large_cap_mem_alloc) allocate(omp_large_cap_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_large_cap.F90",
+   "Pragma": "!$omp target uses_allocators(omp_large_cap_mem_alloc) allocate(omp_large_cap_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_low_lat.c",
+   "Pragma": "#pragma omp target uses_allocators(omp_low_lat_mem_alloc) allocate(omp_low_lat_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_low_lat.F90",
+   "Pragma": "!$omp target uses_allocators(omp_low_lat_mem_alloc) allocate(omp_low_lat_mem_alloc: x) firstprivate(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_pteam.c",
+   "Pragma": "#pragma omp target teams distribute uses_allocators(omp_pteam_mem_alloc) allocate(omp_pteam_mem_alloc: x) private(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_pteam.F90",
+   "Pragma": "!$omp target teams distribute uses_allocators(omp_pteam_mem_alloc) allocate(omp_pteam_mem_alloc: x) private(x) map(from: device_result)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_thread.c",
+   "Pragma": "#pragma omp target parallel uses_allocators(omp_thread_mem_alloc) allocate(omp_thread_mem_alloc: x) private(x) map(from: device_result)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_uses_allocators_thread.F90",
+   "Pragma": "!$omp target teams distribute uses_allocators(omp_thread_mem_alloc) allocate(omp_thread_mem_alloc: x) private(x) map(from: device_result",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_addr.c",
+   "Pragma": "#pragma omp target data use_device_addr(device_data)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_addr.F90",
+   "Pragma": "!$omp target data map(to: device_data) map(from: device_out) use_device_addr(device_data, device_out)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_ptr.c",
+   "Pragma": "#pragma omp target is_device_ptr(array_device) map(tofrom: array_host[0:N])",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_data_use_device_ptr.F90",
+   "Pragma": "!$omp target data use_device_ptr",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_loop_teams_distribute.cpp",
+   "Pragma": "#pragma omp target teams distribute parallel for",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_acq_rel.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(acq_rel)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_relaxed.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(relaxed)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_requires_atomic_default_mem_order_seq_cst.c",
+   "Pragma": "#pragma omp requires atomic_default_mem_order(seq_cst)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_if.c",
+   "Pragma": "#pragma omp target simd if",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_if.F90",
+   "Pragma": "!$omp target simd if",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_nontemporal.c",
+   "Pragma": "#pragma simd target nontemporal",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_simd_order_concurrent.c",
+   "Pragma": "#pragma omp target simd order(concurrent)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_add.c",
+   "Pragma": "#pragma omp target teams distribute reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_add.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(+)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_and.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_and.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.and.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.c",
+   "Pragma": "#pragma omp target teams distribute reduction(&)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitand.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(iand)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(|)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitor.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(ior)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.c",
+   "Pragma": "#pragma omp target teams distribute reduction(^)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_bitxor.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(ieor)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_eqv.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.eqv.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_max.c",
+   "Pragma": "#pragma omp target teams distribute reduction(max)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_max.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(max)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_min.c",
+   "Pragma": "#pragma omp target teams distribute reduction(min)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_min.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(min)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.c",
+   "Pragma": "#pragma omp target teams distribute reduction(*)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_multiply.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(*)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_neqv.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.neqv.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_or.c",
+   "Pragma": "#pragma omp target teams distribute reduction(||)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_or.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(.or.)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_sub.F90",
+   "Pragma": "!$omp target teams distribute, !$omp reduction(-)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_reduction_subtract.c",
+   "Pragma": "#pragma omp target teams distribute reduction(-)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_collapse.c",
+   "Pragma": "#pragma omp target teams distribute parallel for collapse",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_collapse.F90",
+   "Pragma": "!$omp target teams distribute parallel do collapse",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_simd_atomic.c",
+   "Pragma": "# pragma omp target teams distribute parallel for simd, #pragma omp atomic update",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_teams_distribute_parallel_for_simd_atomic.F90",
+   "Pragma": "!$omp target teams distribute parallel do simd, !$omp atomic update",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_from_discontiguous.c",
+   "Pragma": "#pragma omp declare mapper, #pragma omp target, #pragma omp target update from",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_from_discontiguous.F90",
+   "Pragma": "!$omp declare mapper, !$omp target, !$omp target update from",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_to_discontiguous.c",
+   "Pragma": "#pragma omp declare mapper, #pragma omp target update to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_target_update_mapper_to_discontiguous.F90",
+   "Pragma": "!$omp declare mapper, !$omp target update to",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_reduction_task_device.c",
+   "Pragma": "#pramga omp parallel for reduction(task, +), #pragma omp task in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_parallel_for_reduction_task.c",
+   "Pragma": "#pramga omp parallel for reduction(task, +), #pragma omp task in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity_device.c",
+   "Pragma": "#pragma omp task depend shared affinity",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity_device.F90",
+   "Pragma": "!$omp task depend shared affinity",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity.c",
+   "Pragma": "#pragma omp task depend shared affinity",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_affinity.F90",
+   "Pragma": "!$omp task depend shared affinity",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_depend_iterator.cpp",
+   "Pragma": "#pragma omp task depend(iterator)",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_depend_mutexinoutset.c",
+   "Pragma": "#pragma omp task depend(mutexinoutset)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_detach.c",
+   "Pragma": "#pragma omp task detach",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_detach.F90",
+   "Pragma": "!$omp task detach",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction_dynamically_enclosed.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp taskloop reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_task_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp task in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskgroup_task_reduction_device.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp task in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskgroup_task_reduction.c",
+   "Pragma": "#pragma omp taskgroup task_reduction(+), #pragma omp task in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_reduction.c",
+   "Pragma": "#pragma omp taskloop reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_in_reduction_device.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop simp in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_in_reduction.c",
+   "Pragma": "#pragma omp parallel reduction(task, +), #pragma omp taskloop simp in_reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskloop_simd_reduction.c",
+   "Pragma": "#pragma omp taskloop simd reduction(+)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_taskwait_depend.c",
+   "Pragma": "#pragma omp taskwait depend",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_team_default_shared.c",
+   "Pragma": "#pragma omp teams distribute default(shared)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_team_default_shared.F90",
+   "Pragma": "!$omp target teams distribute default(shared)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams_distribute_default_none.c",
+   "Pragma": "#pragma omp teams distribute default(none)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams_distribute_default_none.F90",
+   "Pragma": "!$omp teams distribute default(none)",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams.c",
+   "Pragma": "#pragma omp teams",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5,
+   "Test Name": "test_teams.F90",
+   "Pragma": "!$omp teams    ",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_allocate_allocator_align.c",
+   "Pragma": "#pragma omp allocate allocator align",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_atomic_compare_device.c",
+   "Pragma": "#pragma omp atomic compare",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_atomic_compare.c",
+   "Pragma": "#pragma omp atomic compare",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_cpp_attribute_specifier.cpp",
+   "Pragma": "note: different syntax test",
+   "Test Lang": "cpp"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_begin_end_declare_variant.c",
+   "Pragma": "#pragma omp begin declare variant",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_default_firstprivate_parallel.c",
+   "Pragma": "#pragma omp parallel default(firstprivate)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_default_firstprivate_taskloop.c",
+   "Pragma": "#pragma omp taskloop default(firstprivate)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_default_firstprivate.c",
+   "Pragma": "#pragma omp task default(firstprivate)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_default_private.c",
+   "Pragma": "#pragma omp task default(private)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_target_default_firstprivate.c",
+   "Pragma": "#pragma omp target, #pragma omp task default(firstprivate)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omop_num_teams_env_2.c",
+   "Pragma": "test omp_get_max_teams()",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omp_teams_thread_limit_env_2.c",
+   "Pragma": "test omp_get_teams_thread_limit()",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_get_mapped_ptr.c",
+   "Pragma": "test omp_get_mapped_ptr()",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_parallel_for_order_reproducible.c",
+   "Pragma": "#pragma omp for order(reproducible:concurrent)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_omp_display_env.c",
+   "Pragma": "test omp_display_env()",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_defaultmap_present_scalar.c",
+   "Pragma": "#pragma omp target defaultmap(scalar)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_defaultmap_present.c",
+   "Pragma": "#pragma omp target defaultmap(present)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_has_device_addr.c",
+   "Pragma": "#pragma omp target map",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target-memcpy_async.depobj.c",
+   "Pragma": "#pragma omp depobj, test omp_target_memcpy_async()",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_memcpy_async_no_obj.c",
+   "Pragma": "#pragma omp, test omp_target_memcpy_async",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_update_to_present.c",
+   "Pragma": "#pragma omp target update to",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_taskloop_grainsize_strict.c",
+   "Pragma": "#pragma omp taskloop grainsize(strict)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_taskloop_numtask_strict.c",
+   "Pragma": "#pragma omp taskloop num_tasks(strict)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_task_nowait.c",
+   "Pragma": "#pragma omp taskwait nowait",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_teams_default_firstprivate.c",
+   "Pragma": "#pragma omp target teams default(firstprivate)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_target_teams_thread_limit.c",
+   "Pragma": "#pragma omp target thread_limit",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.1,
+   "Test Name": "test_tile.c",
+   "Pragma": "#pragma omp tile",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_declare_target_enter_device_type_any.c",
+   "Pragma": "#pragma omp declare target enter device_type(any)",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_declare_target_enter.c",
+   "Pragma": "#pragma omp declare target enter",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_print_in_target_region.F90",
+   "Pragma": "!omp target",
+   "Test Lang": "fortran"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_printf_in_target_region.c",
+   "Pragma": "#pragma omp target",
+   "Test Lang": "c"
+ },
+ {
+   "OMP Version": 5.2,
+   "Test Name": "test_enter_data_map.c",
+   "Pragma": "#pragma omp target enter data",
+   "Test Lang": "c"
+ }
+]
