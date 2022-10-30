@@ -8,11 +8,11 @@ import json
 import collections
 import argparse
 
-json_directive_names_path = os.path.join("/SOLLVE/directive_names.json")
+json_directive_names_path = os.path.join("/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/directive_names.json")
 json_directive_names_file= open(json_directive_names_path)
 dir_names=json.load(json_directive_names_file)
 
-json_env_names_path = os.path.join("/SOLLVE/runtime_library_names.json")
+json_env_names_path = os.path.join("/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/runtime_library_names.json")
 json_env_names_file= open(json_env_names_path)
 env_names=json.load(json_env_names_file)
 
@@ -260,7 +260,7 @@ def conditionerchecker(clauselist,splitprag):
 
 def get_test_names(envused, dirfound, clauselist, conditionerlist, omp_version,pragtypeindicator):
     test_names_list=[]
-    testnames = open('/SOLLVE/test_names.json')
+    testnames = open('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/test_names_new.json')
     testnamesdb = json.load(testnames)
     if omp_version== "4.5":
         entiredirlist=get_dirlist("4.5", dir_names)
@@ -325,9 +325,9 @@ def get_test_names(envused, dirfound, clauselist, conditionerlist, omp_version,p
 
 def result_display(test_names_list, omp_version, filelang):
     #print("in")
-    result = open ('/home/SOLLVE/crusher.json')
+    result = open ('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/crusher.json')
     resultdb = json.load(result)
-    testnames = open('/home/SOLLVE/test_names_new.json')
+    testnames = open('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/test_names_new.json')
     testnamesdb = json.load(testnames)
     printed=0
     for c in test_names_list:
@@ -347,9 +347,9 @@ def result_display(test_names_list, omp_version, filelang):
 
 def result_display_comp(test_names_list, omp_version, compver, filelang):
     #print("in")
-    result = open ('/home/SOLLVE/crusher.json')
+    result = open ('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/crusher.json')
     resultdb = json.load(result)
-    testnames = open('/home/SOLLVE/test_names.json')
+    testnames = open('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/test_names_new.json')
     testnamesdb = json.load(testnames)
     printed=0
     for c in test_names_list:
@@ -371,9 +371,9 @@ def result_display_comp(test_names_list, omp_version, compver, filelang):
 
 def result_display_complist(test_names_list, omp_version, complist, filelang):
     #print("in")
-    result = open ('/home/SOLLVE/crusher.json')
+    result = open ('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/crusher.json')
     resultdb = json.load(result)
-    testnames = open('/home/SOLLVE/test_names.json')
+    testnames = open('/sw/crusher/ums/ums012/SOLLVE/autosollvevv/json_data/test_names_new.json')
     testnamesdb = json.load(testnames)
     printed=0
     for c in test_names_list:
@@ -396,15 +396,12 @@ def result_display_complist(test_names_list, omp_version, complist, filelang):
 
 #print(entireenvlist)
 def ext_check(expected_extensionlist, openner):
-    err=0
-
+    err=1
     def extension(filename):
         for a in expected_extensionlist:
             if a in str(filename):
                 err=0
-            else:
-                err=1
-        if err==0:
+        if err!=1:
             return openner(filename)
         else:
             raise argparse.ArgumentTypeError('File must have a .c or .cpp or .F90 extension')
@@ -442,7 +439,7 @@ def main():
 
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('file', type=ext_check([".cpp",".c","F90"], argparse.FileType('r')), help="This is to input the program file")
+    parser.add_argument('file', type=ext_check([".cpp",".c",".F90"], argparse.FileType('r')), help="This is to input the program file")
     parser.add_argument('-c','--compiler', type=str, choices=['llvm','rocm','cce'], help="This is to specify the compiler to show all versions")
     parser.add_argument('-cv','--compilerversion', choices=['llvm_14','llvm_15','llvm_16','rocm_4.5','rocm_5.0','rocm_5.2','cce_14.0.0','cce_14.0.1'], type=str, help="This is to specify the compiler with it's version")
     parser.add_argument('-omp','--openmp', type=str, choices=["4.5","5.0","5.1","5.2"], help="This is to specify the OpenMP Version")

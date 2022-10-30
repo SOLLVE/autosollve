@@ -1,0 +1,548 @@
+[
+ {
+   "Runtime Library": "omp_destroy_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_destroy_nest_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_active_level",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_ancestor_thread_num",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_cancellation",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_default_device",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_dynamic",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_initial_device",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_level",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_max_active_level",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_max_task_priority",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_max_thread",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_nested",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Runtime Library": "omp_get_num_devices",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_num_places",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_num_procs",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_num_teams",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_num_threads",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_partition_num_places",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_partition_place_nums",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_place_num",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_place_num_procs",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_place_proc_ids",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_proc_bind",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_schedule",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_team_num",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_team_size",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_thread_limit",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_thread_num",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_wtick",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_wtime",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_in_final",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_in_parallel",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_init_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_init_lock_with_hint",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_init_nest_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_init_nest_lock_with_hint",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_is_initial_device",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_default_device",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_dynamic",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_max_active_levels",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_nest_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_nested",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 0
+ },
+ {
+   "Runtime Library": "omp_set_num_threads",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_schedule",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_alloc",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_associate_ptr",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_disassociate_ptr",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_free",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_is_present",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_memcpy",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_memcpy_rect",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_test_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_test_nest_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_unset_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_unset_nest_lock",
+   "4.5": 1,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_aligned_alloc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_aligned_calloc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_alloc",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_calloc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_capture_affinity",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_destroy_allocator",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_display_affinity",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_free",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_fulfill_event",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_affinity_format",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_default_allocator",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_device_num",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_int",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_name",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_ptr",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_rc_desc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_str",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_interop_type_desc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_mapped_ptr",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_max_teams",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_num_interop_properties",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_supported_active_levels",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_get_teams_thread_limit",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_init_allocator",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_pause_resource",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_pause_resource_all",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_realloc",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_affinity_format",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_default_allocator",
+   "4.5": 0,
+   "5.0": 1,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_num_teams",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_set_teams_thread_limit",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_is_accessible",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_memcpy_async",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ },
+ {
+   "Runtime Library": "omp_target_memcpy_rect_async",
+   "4.5": 0,
+   "5.0": 0,
+   "5.1": 1
+ }
+]

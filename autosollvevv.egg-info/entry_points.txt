@@ -1,0 +1,3 @@
+[console_scripts]
+autosollvevv = autosollvevv.__main__:main
+
