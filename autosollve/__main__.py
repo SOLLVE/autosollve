@@ -8,15 +8,24 @@ import json
 import collections
 import argparse
 
-json_directive_names_path = os.path.join("/SOLLVE/directive_names.json") #path to dir json
+json_directive_names_path = os.path.join("/SOLLVE/directive_names.json")
 json_directive_names_file= open(json_directive_names_path)
 dir_names=json.load(json_directive_names_file)
 
-json_env_names_path = os.path.join("/SOLLVE/runtime_library_names.json") #path to runtime_lib json
+json_env_names_path = os.path.join("/SOLLVE/runtime_library_names.json")
 json_env_names_file= open(json_env_names_path)
 env_names=json.load(json_env_names_file)
 
+#print(json_directive_files)
+#print()
+#print(json_clause_files)
+#print()
+#print(json_clause_group_files)
 
+
+#print(len(entiredirlist))
+#print(len(json_directive_files))
+#print(dir_names[0]["4.5"])
 def get_dirlist(omp_ver, dir_names):
     entiredirlist=[]
     for b in range(len(dir_names)):
@@ -129,7 +138,7 @@ def pragtype(splitprag):
     for b in splitprag:
         pragtypechecker=pragtypechecker+b
         #print(pragtypechecker)
-        if pragtypechecker == "#pragma omp" or pragtypechecker == "# pragma omp":
+        if pragtypechecker == "#pragma omp" or pragtypechecker == "# pragma omp" or pragtypechecker == "!$omp" or pragtypechecker == "!$ omp" or pragtypechecker == "! $omp"or pragtypechecker == "! $ omp":
             pragtypeindicator = 1
             #print("in")
             break
@@ -137,6 +146,10 @@ def pragtype(splitprag):
             pragtypeindicator = 2
         pragtypechecker=pragtypechecker+' '
     return(pragtypeindicator)
+
+
+
+
 
 def envchecker(entireenvlist,splitprag):
     envused=''
@@ -203,6 +216,8 @@ def clausechecker(splitprag, dirfound):
             parentheses_checker=0
     return(reeclauselist)
 
+
+
 def conditionerchecker(clauselist,splitprag):
     arrconditionerlist=[[-1 for x in range(20)]for y in range(20)]
     for b in range(len(clauselist)):
@@ -245,7 +260,7 @@ def conditionerchecker(clauselist,splitprag):
 
 def get_test_names(envused, dirfound, clauselist, conditionerlist, omp_version,pragtypeindicator):
     test_names_list=[]
-    testnames = open('test_names.json')
+    testnames = open('/SOLLVE/test_names.json')
     testnamesdb = json.load(testnames)
     if omp_version== "4.5":
         entiredirlist=get_dirlist("4.5", dir_names)
@@ -308,36 +323,92 @@ def get_test_names(envused, dirfound, clauselist, conditionerlist, omp_version,p
                     test_names_list.append(testnamesdb[b]["Test Name"])
     return(test_names_list)
 
-def result_display(test_names_list, omp_version):
+def result_display(test_names_list, omp_version, filelang):
     #print("in")
-    result = open ('perlmutter_results.json')
+    result = open ('/home/SOLLVE/crusher.json')
     resultdb = json.load(result)
-    testnames = open('test_names.json')
+    testnames = open('/home/SOLLVE/test_names_new.json')
+    testnamesdb = json.load(testnames)
+    printed=0
+    for c in test_names_list:
+        #print(c)
+        for b in range(len(resultdb)):
+            if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version:
+                if filelang in resultdb[b]["Test name"]:
+                    if printed==0:
+                        print("Test Name: "+resultdb[b]["Test name"]+" OpenMP Version: "+resultdb[b]["OMP version"])
+                        for d in range(len(testnamesdb)):
+                            if testnamesdb[d]["Test Name"]==resultdb[b]["Test name"]:
+                                print("Related Pragma: "+testnamesdb[d]["Pragma"])
+                        printed=1
+                    print("Compiler Name: " +resultdb[b]["Compiler name"]+" Result: "+resultdb[b]["Compiler result"])
+        printed =0
+        print()
+
+def result_display_comp(test_names_list, omp_version, compver, filelang):
+    #print("in")
+    result = open ('/home/SOLLVE/crusher.json')
+    resultdb = json.load(result)
+    testnames = open('/home/SOLLVE/test_names.json')
     testnamesdb = json.load(testnames)
     printed=0
     for c in test_names_list:
         #print(c)
         for b in range(len(resultdb)):
 
-            if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version:
-                if printed==0:
-                    print("Test Name: "+resultdb[b]["Test name"]+" OpenMP Version: "+resultdb[b]["OMP version"])
-                    for d in range(len(testnamesdb)):
-                        if testnamesdb[d]["Test Name"]==resultdb[b]["Test name"]:
-                            print("Related Pragma: "+testnamesdb[d]["Pragma"])
-                    printed=1
-                print("Compiler Name: " +resultdb[b]["Compiler name"]+" Result: "+resultdb[b]["Compiler result"])
+            if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version and resultdb[b]["Compiler name"] == compver:
+                if filelang in resultdb[b]["Test name"]:
+                    if printed==0:
+                        print("Test Name: "+resultdb[b]["Test name"]+" OpenMP Version: "+resultdb[b]["OMP version"])
+                        for d in range(len(testnamesdb)):
+                            if testnamesdb[d]["Test Name"]==resultdb[b]["Test name"]:
+                                print("Related Pragma: "+testnamesdb[d]["Pragma"])
+                        printed=1
+                    print("Compiler Name: " +resultdb[b]["Compiler name"]+" Compiler Result: "+resultdb[b]["Compiler result"]+" Runtime Result: "+resultdb[b]["Runtime result"])
+        printed =0
+        print()
+
+
+def result_display_complist(test_names_list, omp_version, complist, filelang):
+    #print("in")
+    result = open ('/home/SOLLVE/crusher.json')
+    resultdb = json.load(result)
+    testnames = open('/home/SOLLVE/test_names.json')
+    testnamesdb = json.load(testnames)
+    printed=0
+    for c in test_names_list:
+        #print(c)
+        for b in range(len(resultdb)):
+            for h in complist:
+                if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version and resultdb[b]["Compiler name"] == h:
+                    if filelang in resultdb[b]["Test name"]:
+                        if printed==0:
+                            print("Test Name: "+resultdb[b]["Test name"]+" OpenMP Version: "+resultdb[b]["OMP version"])
+                            for d in range(len(testnamesdb)):
+                                if testnamesdb[d]["Test Name"]==resultdb[b]["Test name"]:
+                                    print("Related Pragma: "+testnamesdb[d]["Pragma"])
+                            printed=1
+                        print("Compiler Name: " +resultdb[b]["Compiler name"]+" Compiler Result: "+resultdb[b]["Compiler result"]+" Runtime Result: "+resultdb[b]["Runtime result"])
         printed =0
         print()
 
 
 
-
-
-
-
 #print(entireenvlist)
+def ext_check(expected_extensionlist, openner):
+    err=0
 
+    def extension(filename):
+        for a in expected_extensionlist:
+            if a in str(filename):
+                err=0
+            else:
+                err=1
+        if err==0:
+            return openner(filename)
+        else:
+            raise argparse.ArgumentTypeError('File must have a .c or .cpp or .F90 extension')
+    return extension
 
 def main():
     const1= ''
@@ -371,14 +442,49 @@ def main():
 
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('file', type=argparse.FileType('r'))
-    file_loc = parser.parse_args()
-    #print(file_loc)
+    parser.add_argument('file', type=ext_check([".cpp",".c","F90"], argparse.FileType('r')), help="This is to input the program file")
+    parser.add_argument('-c','--compiler', type=str, choices=['llvm','rocm','cce'], help="This is to specify the compiler to show all versions")
+    parser.add_argument('-cv','--compilerversion', choices=['llvm_14','llvm_15','llvm_16','rocm_4.5','rocm_5.0','rocm_5.2','cce_14.0.0','cce_14.0.1'], type=str, help="This is to specify the compiler with it's version")
+    parser.add_argument('-omp','--openmp', type=str, choices=["4.5","5.0","5.1","5.2"], help="This is to specify the OpenMP Version")
+    args = parser.parse_args()
+    file_loc= args.file
+    if ".c" in file_loc.name:
+        filelang="c"
+    elif ".cpp" in file_loc.name:
+        filelang="cpp"
+    elif ".F90" in file_loc.name:
+        filelang=".F90"
+    #print(filelang)
+    #print(args.compiler)
+    #print(args.compilerversion)
+    #print(args.openmp)
     #file_loc=input("Enter file name: ")
     print()
     print("----------------------------------------------------------------------")
     #file = open(file_loc, 'r')
-    file_lines = file_loc.file.readlines()
+    if args.compilerversion == 'llvm_14':
+        compilerver='llvm_14_0_0'
+    elif args.compilerversion == 'llvm_15':
+        compilerver='llvm_15_0_0'
+    elif args.compilerversion == 'llvm_16':
+        compilerver='llvm_16_0_0'
+    elif args.compilerversion == 'rocm_4.5':
+        compilerver='rocm_4_5_2'
+    elif args.compilerversion == 'rocm_5.0':
+        compilerver='rocm_5_0_2'
+    elif args.compilerversion == 'rocm_5.2':
+        compilerver='rocm_5_2_0'
+    elif args.compilerversion == 'cce_14.0.0':
+        compilerver='cce_14_0_0'
+    elif args.compilerversion == 'cce_14.0.1':
+        compilerver='cce_14_0_1'
+    elif args.compiler == "llvm":
+        compilerverlist=['llvm_14_0_0','llvm_15_0_0','llvm_16_0_0']
+    elif args.compiler == "rocm":
+        compilerverlist=['rocm_4_5_2','rocm_5_0_2','rocm_5_2_0']
+    elif args.compiler == "cce":
+        compilerverlist=['cce_14_0_0','cce_14_0_1']
+    file_lines = file_loc.readlines()
     line_count=0
     entiredirlist_45=get_dirlist("4.5", dir_names)
     entireenvlist_45=get_envlist("4.5", env_names)
@@ -387,6 +493,7 @@ def main():
     entiredirlist_51=get_dirlist("5.1", dir_names)
     entireenvlist_51=get_envlist("5.1", env_names)
     for line_n in range(len(file_lines)):
+
         if lineskp != 0:
             lineskp=lineskp-1
             continue
@@ -454,28 +561,169 @@ def main():
         test_names_list_50=get_test_names(envused_50, dirfound_50, clauselist_50, conditionerlist_50, "5.0",pragtypeindicator)
         test_names_list_51=get_test_names(envused_51, dirfound_51, clauselist_51, conditionerlist_51, "5.1",pragtypeindicator)
 
+        if args.openmp:
+            if args.openmp == "4.5":
+                if args.compilerversion:
+                    if len(test_names_list_45) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_45) !=0:
+                            print("OMP 4.5 tests")
+                            result_display_comp(test_names_list_45,"4.5",compilerver, filelang)
+                        print("----------------------------------------------------------------------")
+                elif args.compiler:
+                    for h in compilerverlist:
+                        if len(test_names_list_45) != 0:
+                            print("Line number: "+str(line_count))
+                            print("Line: "+line.strip())
+                            print()
+                            if len(test_names_list_45) !=0:
+                                print("OMP 4.5 tests")
+                                result_display_comp(test_names_list_45,"4.5",h, filelang)
+                            print("----------------------------------------------------------------------")
+                else:
+                    if len(test_names_list_45) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_45) !=0:
+                            print("OMP 4.5 tests")
+                            result_display(test_names_list_45,"4.5", filelang)
+                        print("----------------------------------------------------------------------")
+            elif args.openmp == "5.0":
+                if args.compilerversion:
+                    if len(test_names_list_50) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_50) !=0:
+                            print("OMP 5.0 tests")
+                            result_display_comp(test_names_list_50,"5.0",compilerver, filelang)
+                        print("----------------------------------------------------------------------")
+                elif args.compiler:
+                    for h in compilerverlist:
+                        if len(test_names_list_45) != 0:
+                            print("Line number: "+str(line_count))
+                            print("Line: "+line.strip())
+                            print()
+                            if len(test_names_list_50) !=0:
+                                print("OMP 5.0 tests")
+                                result_display_comp(test_names_list_50,"5.0",h, filelang)
+                            print("----------------------------------------------------------------------")
+                else:
+                    if len(test_names_list_50) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_50) !=0:
+                            print("OMP 5.0 tests")
+                            result_display(test_names_list_50,"5.0", filelang)
+                        print("----------------------------------------------------------------------")
+            elif args.openmp == "5.1":
+                if args.compilerversion:
+                    if len(test_names_list_51) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_51) !=0:
+                            print("OMP 5.1 tests")
+                            result_display_comp(test_names_list_51,"5.1",compilerver, filelang)
+                        print("----------------------------------------------------------------------")
+                elif args.compiler:
+                    for h in compilerverlist:
+                        if len(test_names_list_45) != 0:
+                            print("Line number: "+str(line_count))
+                            print("Line: "+line.strip())
+                            print()
+                            if len(test_names_list_51) !=0:
+                                print("OMP 5.1 tests")
+                                result_display_comp(test_names_list_51,"5.1",h, filelang)
+                            print("----------------------------------------------------------------------")
+                else:
+                    if len(test_names_list_51) != 0:
+                        print("Line number: "+str(line_count))
+                        print("Line: "+line.strip())
+                        print()
+                        if len(test_names_list_51) !=0:
+                            print("OMP 5.1 tests")
+                            result_display(test_names_list_51,"5.1", filelang)
+                        print("----------------------------------------------------------------------")
+        elif args.compilerversion:
+            test_names_list= test_names_list_45
 
-        test_names_list= test_names_list_45
+            for a in test_names_list_50:
+                if a not in test_names_list:
+                    test_names_list.append(a)
 
-        for a in test_names_list_50:
-            if a not in test_names_list:
-                test_names_list.append(a)
+            for a in test_names_list_51:
+                if a not in test_names_list:
+                    test_names_list.append(a)
 
-        for a in test_names_list_51:
-            if a not in test_names_list:
-                test_names_list.append(a)
+            if len(test_names_list) != 0:
+                print("Line number: "+str(line_count))
+                print("Line: "+line.strip())
+                print()
+                if len(test_names_list_45) !=0:
+                    print("OMP 4.5 tests")
+                    result_display_comp(test_names_list_45,"4.5",compilerver, filelang)
+                if len(test_names_list_50) !=0:
+                    print("OMP 5.0 tests")
+                    result_display_comp(test_names_list_50,"5.0",compilerver, filelang)
+                if len(test_names_list_51) !=0:
+                    print("OMP 5.1 tests")
+                    result_display_comp(test_names_list_51,"5.1",compilerver, filelang)
+                print("----------------------------------------------------------------------")
+        elif args.compiler:
+            test_names_list= test_names_list_45
 
-        if len(test_names_list) != 0:
-            print("Line number: "+str(line_count))
-            print("Line: "+line.strip())
-            print()
-            print("OMP 4.5 tests")
-            result_display(test_names_list_45,"4.5")
-            print("OMP 5.0 tests")
-            result_display(test_names_list_50,"5.0")
-            print("OMP 5.1 tests")
-            result_display(test_names_list_51,"5.1")
-            print("----------------------------------------------------------------------")
+            for a in test_names_list_50:
+                if a not in test_names_list:
+                    test_names_list.append(a)
+
+            for a in test_names_list_51:
+                if a not in test_names_list:
+                    test_names_list.append(a)
+
+            if len(test_names_list) != 0:
+                print("Line number: "+str(line_count))
+                print("Line: "+line.strip())
+                print()
+                if len(test_names_list_45) !=0:
+                    print("OMP 4.5 tests")
+                    result_display_complist(test_names_list_45,"4.5",compilerverlist, filelang)
+                if len(test_names_list_50) !=0:
+                    print("OMP 5.0 tests")
+                    result_display_complist(test_names_list_50,"5.0",compilerverlist, filelang)
+                if len(test_names_list_51) !=0:
+                    print("OMP 5.1 tests")
+                    result_display_complist(test_names_list_51,"5.1",compilerverlist, filelang)
+                print("----------------------------------------------------------------------")
+        else:
+            test_names_list= test_names_list_45
+
+            for a in test_names_list_50:
+                if a not in test_names_list:
+                    test_names_list.append(a)
+
+            for a in test_names_list_51:
+                if a not in test_names_list:
+                    test_names_list.append(a)
+
+            if len(test_names_list) != 0:
+                print("Line number: "+str(line_count))
+                print("Line: "+line.strip())
+                print()
+                if len(test_names_list_45) !=0:
+                    print("OMP 4.5 tests")
+                    result_display(test_names_list_45,"4.5", filelang)
+                if len(test_names_list_50) !=0:
+                    print("OMP 5.0 tests")
+                    result_display(test_names_list_50,"5.0", filelang)
+                if len(test_names_list_51) !=0:
+                    print("OMP 5.1 tests")
+                    result_display(test_names_list_51,"5.1", filelang)
+                print("----------------------------------------------------------------------")
 
 if __name__ == '__main__':
     main()
