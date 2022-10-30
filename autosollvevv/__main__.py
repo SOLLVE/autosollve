@@ -378,8 +378,8 @@ def result_display_complist(test_names_list, omp_version, complist, filelang):
     printed=0
     for c in test_names_list:
         #print(c)
-        for b in range(len(resultdb)):
-            for h in complist:
+        for h in complist:
+            for b in range(len(resultdb)):
                 if resultdb[b]["Test name"] == c and resultdb[b]["OMP version"] == omp_version and resultdb[b]["Compiler name"] == h:
                     if filelang in resultdb[b]["Test name"]:
                         if printed==0:
@@ -570,14 +570,13 @@ def main():
                             result_display_comp(test_names_list_45,"4.5",compilerver, filelang)
                         print("----------------------------------------------------------------------")
                 elif args.compiler:
-                    for h in compilerverlist:
                         if len(test_names_list_45) != 0:
                             print("Line number: "+str(line_count))
                             print("Line: "+line.strip())
                             print()
                             if len(test_names_list_45) !=0:
                                 print("OMP 4.5 tests")
-                                result_display_comp(test_names_list_45,"4.5",h, filelang)
+                                result_display_complist(test_names_list_45,"4.5",compilerverlist, filelang)
                             print("----------------------------------------------------------------------")
                 else:
                     if len(test_names_list_45) != 0:
@@ -599,14 +598,13 @@ def main():
                             result_display_comp(test_names_list_50,"5.0",compilerver, filelang)
                         print("----------------------------------------------------------------------")
                 elif args.compiler:
-                    for h in compilerverlist:
-                        if len(test_names_list_45) != 0:
+                        if len(test_names_list_50) != 0:
                             print("Line number: "+str(line_count))
                             print("Line: "+line.strip())
                             print()
                             if len(test_names_list_50) !=0:
                                 print("OMP 5.0 tests")
-                                result_display_comp(test_names_list_50,"5.0",h, filelang)
+                                result_display_complist(test_names_list_50,"5.0",compilerverlist, filelang)
                             print("----------------------------------------------------------------------")
                 else:
                     if len(test_names_list_50) != 0:
@@ -628,14 +626,13 @@ def main():
                             result_display_comp(test_names_list_51,"5.1",compilerver, filelang)
                         print("----------------------------------------------------------------------")
                 elif args.compiler:
-                    for h in compilerverlist:
                         if len(test_names_list_45) != 0:
                             print("Line number: "+str(line_count))
                             print("Line: "+line.strip())
                             print()
                             if len(test_names_list_51) !=0:
                                 print("OMP 5.1 tests")
-                                result_display_comp(test_names_list_51,"5.1",h, filelang)
+                                result_display_complist(test_names_list_51,"5.1",compilerverlist, filelang)
                             print("----------------------------------------------------------------------")
                 else:
                     if len(test_names_list_51) != 0:
