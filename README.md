@@ -17,7 +17,8 @@ The installation media is located in the UMS012 space on crusher at /sw/crusher/
 The installation requires Python3 and pip3 dependencies
 ```bash
 pip3 install -e /sw/crusher/ums/ums012/SOLLVE/autosollvevv/
-
+```
+```bash
 mv .local/bin/autosollvevv .
 ```
 The -e installation option is for --editable, by which the user wouldn't have to install newer versions as the current version will autmatically be updaed without the need for reinstallation
