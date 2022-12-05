@@ -11,17 +11,19 @@ The current version of this tool is built for use on the pre-exascale system Cru
 
 ## Installation
 
-The installation media is located in the UMS012 space on crusher at /sw/crusher/ums/ums012/SOLLVE/autosollvevv/
+The installation media is located in the UMS012 space on Crusher at /sw/crusher/ums/ums012/SOLLVE/autosollvevv/
 
 
-The installation requires Python3 and pip3 dependencies
+The installation requires Python3 and pip3 dependencies.
 ```bash
 pip3 install -e /sw/crusher/ums/ums012/SOLLVE/autosollvevv/
 ```
+The -e installation option is for --editable, by which the user wouldn't have to install newer versions as the current version will automatically be updated without the need for reinstallation.
+
 ```bash
 mv .local/bin/autosollvevv .
 ```
-The -e installation option is for --editable, by which the user wouldn't have to install newer versions as the current version will autmatically be updaed without the need for reinstallation
+This command is used to move it from the installation directory to the user's working directory. This needs to be done as the user's doesn't have the privileges to make autosollvevv an environment variable using pip3.
 
 
 
