@@ -41,7 +41,7 @@ optional arguments:
   -c {llvm,rocm,cce}, --compiler {llvm,rocm,cce}
                         This is to specify the compiler to show all versions
   -cv {llvm_14,llvm_15,llvm_16,rocm_4.5,rocm_5.0,rocm_5.2,cce_14.0.0,cce_14.0.1}, --compilerversion {llvm_14,llvm_15,llvm_16,rocm_4.5,rocm_5.0,rocm_5.2,cce_14.0.0,cce_14.0.1}
-                        This is to specify the compiler with it's version
+                        This is to specify the compiler with its version
   -omp {4.5,5.0,5.1,5.2}, --openmp {4.5,5.0,5.1,5.2}
                         This is to specify the OpenMP Version
 
